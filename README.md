@@ -63,14 +63,3 @@ The link checker will spawn a new thread for each HTML file, and a new thread fo
 ...or:
 
     check-links 'public' --max-threads 1
-## Testing
-
-The ```link-checker``` gem uses [RSpec](http://rspec.info) for testing and has 100% test coverage, verified using [simplecov](https://github.com/colszowka/simplecov).
-
-Run the specs with:
-
-    rake spec
-
-## API Documentation
-
-The Yardoc documenation is hosted on [RubyDoc.info](http://rubydoc.info/github/endymion/link-checker/frames).
